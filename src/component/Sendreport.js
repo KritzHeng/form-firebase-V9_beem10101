@@ -2,10 +2,7 @@ import React, { useState } from "react";
 import pic1 from "../5s.png";
 import { v4 } from "uuid";
 import {
-  // getStorage,
-  getFirestore,
   collection,
-  getDocs,
   addDoc,
 } from "firebase/firestore/lite";
 import { db } from "../firebase";
